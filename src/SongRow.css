@@ -1,0 +1,26 @@
+.songRow {
+    align-items: center;
+    z-index: 100;
+    color: white;
+    margin: 30px 3px; 
+  }
+  .songRow:hover {
+    background-color: rgba(201,192,196,0.2);
+    transition: 300ms background-color ease-in;
+  }
+  .songRow__album {
+    height: 2.8em;
+  }
+
+  .song_title{
+    display: flex;
+  }
+  .songRow__info {
+    margin-left: 1em;
+  }
+  .songRow__info > p {
+    color: #B9b9bf;
+  }
+  td {
+    padding: 0.5em 0;
+  }

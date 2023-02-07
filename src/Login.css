@@ -1,0 +1,19 @@
+.login__page {
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+  }
+  .login__page > img {
+    width: 100%;
+  }
+  
+  .login_button {
+    padding: 1em;
+    background-color: green;
+    color: white;
+    border-radius: 33px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+  

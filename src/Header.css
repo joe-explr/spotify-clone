@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0.5em 1.5em;
+}
+.header__left{
+    display: flex;
+    place-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+    background-color: white;
+}
+.header__right{
+    display: flex;
+    place-items: center;
+    margin-right:5px;
+}
+.header__left > input    {
+    border: none;
+    width: 100%;
+  }
+  
+  .header__right > h4 {
+    margin-left: 10px;
+  }
